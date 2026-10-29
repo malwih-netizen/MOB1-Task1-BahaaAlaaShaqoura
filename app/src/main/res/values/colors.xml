@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light mode -->
+    <color name="background">#FFFFF5EE</color>
+    <color name="on_background">#FF221A14</color>
+    <color name="primary">#FF8B4F24</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="surface_card">#FFFFE6D8</color>
+    <color name="on_surface_variant">#FF52443C</color>
+
+    <!-- Birthday Card -->
+    <color name="image_scrim">#00000000</color>
+    <color name="signature">#FFFF0000</color>
+
+    <!-- Quadrant -->
+    <color name="quadrant_strong">#FFFFDBC8</color>
+    <color name="quadrant_soft">#FFFCEAE0</color>
+
+    <!-- Business Card: same in Light and Dark mode -->
+    <color name="card_background">#FF0D1757</color>
+    <color name="android_green">#FF3DDC84</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

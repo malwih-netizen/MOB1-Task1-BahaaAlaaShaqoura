@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode -->
+    <color name="background">#FF1D120B</color>
+    <color name="on_background">#FFF5DED3</color>
+    <color name="primary">#FFFFB68A</color>
+    <color name="on_primary">#FF512400</color>
+    <color name="surface_card">#FF2F2119</color>
+    <color name="on_surface_variant">#FFD7C2B8</color>
+
+    <!-- Darkens the birthday image -->
+    <color name="image_scrim">#99000000</color>
+
+    <color name="quadrant_strong">#FF5D4334</color>
+    <color name="quadrant_soft">#FF2C1F18</color>
+</resources>

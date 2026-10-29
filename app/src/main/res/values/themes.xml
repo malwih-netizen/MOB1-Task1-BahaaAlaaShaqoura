@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Task1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/background</item>
+        <item name="colorOnSurface">@color/on_background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+        <item name="android:windowAnimationStyle">@style/SlideAnimation</item>
+    </style>
+
+    <!-- Business Card keeps its navy look in both modes -->
+    <style name="Theme.Task1.BusinessCard">
+        <item name="android:statusBarColor">@color/card_background</item>
+        <item name="android:navigationBarColor">@color/card_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Screen transitions: new screen slides in from the end, back slides it out -->
+    <style name="SlideAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_end</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_start</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_start</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_end</item>
+    </style>
+</resources>

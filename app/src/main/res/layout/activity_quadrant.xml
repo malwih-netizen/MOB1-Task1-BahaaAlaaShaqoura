@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".QuadrantActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuadrantCell"
+            android:background="@color/quadrant_strong">
+
+            <TextView
+                style="@style/QuadrantTitle"
+                android:text="@string/first_title" />
+
+            <TextView
+                style="@style/QuadrantBody"
+                android:text="@string/first_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuadrantCell"
+            android:background="@color/quadrant_soft">
+
+            <TextView
+                style="@style/QuadrantTitle"
+                android:text="@string/second_title" />
+
+            <TextView
+                style="@style/QuadrantBody"
+                android:text="@string/second_description" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/QuadrantCell"
+            android:background="@color/quadrant_soft">
+
+            <TextView
+                style="@style/QuadrantTitle"
+                android:text="@string/third_title" />
+
+            <TextView
+                style="@style/QuadrantBody"
+                android:text="@string/third_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/QuadrantCell"
+            android:background="@color/quadrant_strong">
+
+            <TextView
+                style="@style/QuadrantTitle"
+                android:text="@string/fourth_title" />
+
+            <TextView
+                style="@style/QuadrantBody"
+                android:text="@string/fourth_description" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
